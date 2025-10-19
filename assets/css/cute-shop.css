@@ -1,0 +1,133 @@
+/* CuTe Shop Styles */
+body {
+  background: linear-gradient(to right top, #fceff9, #f6e6ff, #ede0ff, #d29dd1, #ebafce);
+  font-family: sans-serif;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.cart-icon {
+  color: white;
+  font-weight: bold;
+}
+
+.cart-count {
+  background: white;
+  color: #ff69b4;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.shop-title {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Startup {
+  text-align: center;
+  margin: 40px auto 60px;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.Startup h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #8b5a96;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 4px rgba(139, 90, 150, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Startup p {
+  font-size: 1.3rem;
+  color: #6b46c1;
+  font-weight: 500;
+  margin-bottom: 0;
+  text-shadow: 0 2px 4px rgba(107, 70, 193, 0.2);
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.add-btn {
+  background: linear-gradient(to right, #ffb6c1, #dda0dd);
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 0 0 12px 12px;
+}
+
+.cart-box {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 60px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.remove-btn {
+  background: #ff69b4;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+}
+
+.total {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  background: linear-gradient(to right, #dda0dd, #ffb6c1);
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: rgb(191, 97, 195);
+}

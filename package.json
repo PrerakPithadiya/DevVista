@@ -1,0 +1,39 @@
+{
+  "name": "devvista",
+  "version": "1.0.0",
+  "description": "A modern web portfolio and e-commerce showcase featuring responsive design and interactive UI",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server public --port=3000",
+    "dev": "npx live-server src --port=3000",
+    "build": "npm run clean && npm run copy-assets && npm run minify",
+    "clean": "rimraf dist",
+    "copy-assets": "copyfiles -u 1 \"src/**/*\" \"assets/**/*\" \"*.html\" dist/",
+    "minify": "npx html-minifier --input-dir src --output-dir dist --file-ext html --minify-css --minify-js"
+  },
+  "keywords": [
+    "portfolio",
+    "e-commerce",
+    "responsive",
+    "html",
+    "css",
+    "javascript",
+    "bootstrap"
+  ],
+  "author": "Netra Bheda",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "html-minifier": "^4.0.0",
+    "copyfiles": "^2.4.1",
+    "rimraf": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/devvista.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/devvista/issues"
+  },
+  "homepage": "https://github.com/yourusername/devvista#readme"
+}
