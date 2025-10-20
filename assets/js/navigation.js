@@ -6,7 +6,7 @@ class NavigationSystem {
     this.navigationData = {
       'index.html': { title: 'Home', path: 'Home' },
       'homepage.html': { title: 'Home', path: 'Home' },
-      'portfolio_week_2.html': { title: 'Portfolio', path: 'Home > Portfolio' },
+      'portfolio.html': { title: 'Portfolio', path: 'Home > Portfolio' },
       'cute_shop.html': { title: 'CuTe Shop', path: 'Home > E-commerce' },
       'contact_info_week_1.html': { title: 'Contact', path: 'Home > Contact' },
       'product_card_week_3.html': { title: 'Products', path: 'Home > Products' }
@@ -46,7 +46,7 @@ class NavigationSystem {
         </a>
       </li>
       <li class="nav-item">
-        <a href="portfolio_week_2.html" class="nav-link" data-page="portfolio_week_2.html">
+        <a href="portfolio.html" class="nav-link" data-page="portfolio.html">
           <span>👤</span> Portfolio
         </a>
       </li>
@@ -220,7 +220,7 @@ document.addEventListener('keydown', (e) => {
         window.location.href = 'index.html';
         break;
       case '2':
-        window.location.href = 'portfolio_week_2.html';
+        window.location.href = 'portfolio.html';
         break;
       case '3':
         window.location.href = 'cute_shop.html';
