@@ -24,64 +24,60 @@
     </div>
   </nav>
 
-  <button class="toggle-btn" onclick="toggleMode()">🌙 Dark Mode</button>
-
-  <header>
-    <h1>Netra Bheda</h1>
-    <p>UI/UX Designer | Front-End Developer | Dreamer in Pastel Pixels</p>
-  </header>
-
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
   <div class="container">
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Hello! I'm Netra Bheda, a designer and developer who loves soft aesthetics and functional design. I blend
-        creativity with code to build smooth, visually appealing web experiences.
-      </p>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="projects">
-        <div class="project-card">
-          <h3>Elegant Portfolio</h3>
-          <p>A fully responsive pastel-themed portfolio using HTML, CSS and Flexbox.</p>
+    <button class="toggle-btn" onclick="toggleMode()">🌙 Dark Mode</button>
+    <main>
+      <header class="portfolio-header text-center py-4">
+        <h1>Netra Bheda</h1>
+        <p>UI/UX Designer | Front-End Developer | Dreamer in Pastel Pixels</p>
+        <div class="portfolio-nav my-3">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
         </div>
-        <div class="project-card">
-          <h3>Bikey-A web application</h3>
-          <p>Founder, Brand Designer // <br>
-            Designed the logo,
-            branding and visual identity. Developed branding that reflects sustainability and smart living.<br>
-            "With bikey i turned a vision into an interactive design"
-          </p>
+      </header>
+      <section id="about" class="mb-5">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Netra Bheda, a designer and developer who loves soft aesthetics and functional design. I blend
+          creativity with code to build smooth, visually appealing web experiences.
+        </p>
+      </section>
+      <section id="projects" class="mb-5">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="project-card">
+            <h3>Elegant Portfolio</h3>
+            <p>A fully responsive pastel-themed portfolio using HTML, CSS and Flexbox.</p>
+          </div>
+          <div class="project-card">
+            <h3>Bikey-A web application</h3>
+            <p>Founder, Brand Designer <br>
+              Designed the logo, branding and visual identity. Developed branding that reflects sustainability and smart living.<br>
+              "With bikey I turned a vision into an interactive design"
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>Personal Bio Form</h3>
+            <p>A clean and interactive personal bio form designed using HTML and CSS. It includes modern input types: date, color, range, week, and password.</p>
+          </div>
         </div>
-        <div class="project-card">
-          <h3>Personal Bio Form</h3>
-          <p> A Clean and interactive personal bio form designed using HTML and CSS. it includes modern input types:
-            date, color, range, week, and password.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form>
-        <input type="text" placeholder="Your Name:" required>
-        <input type="email" placeholder="Your Email:" required>
-        <textarea rows="3" placeholder="Your Message:" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <input type="text" placeholder="Your Name:" required>
+          <input type="email" placeholder="Your Email:" required>
+          <textarea rows="3" placeholder="Your Message:" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+  </main>
   </div>
 
   <footer>
-    © 2025 Netra Bheda
+    &copy; 2025 Netra Bheda
   </footer>
 
   <!-- Bootstrap JS -->
